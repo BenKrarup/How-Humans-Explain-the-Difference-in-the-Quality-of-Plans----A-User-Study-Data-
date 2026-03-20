@@ -1,0 +1,21 @@
+ ; Metric value 64.007
+0.001: (use la1 rover2) [0.001] ; (1)
+0.002: (recharge rover2 waypoint1) [1.000] ; (10)
+1.003: (recharge rover2 waypoint1) [1.000] ; (10)
+1.004: (sample_rock rover2 waypoint1) [8.000] ; (18)
+2.004: (recharge rover2 waypoint1) [1.000] ; (10)
+3.005: (recharge rover2 waypoint1) [1.000] ; (10)
+4.006: (recharge rover2 waypoint1) [1.000] ; (10)
+5.007: (recharge rover2 waypoint1) [1.000] ; (10)
+9.004: (navigate rover2 waypoint1 waypoint3) [5.000] ; (7)
+14.004: (communicate_rock_data rover2 general waypoint1 waypoint3 landerpoint) [10.000] ; (26)
+14.005: (sample_soil rover2 waypoint3) [10.000] ; (16)
+24.005: (navigate rover2 waypoint3 waypoint2) [5.000] ; (5)
+29.006: (sample_soil rover2 waypoint2) [10.000] ; (14)
+29.007: (recharge rover2 waypoint2) [1.000] ; (12)
+30.008: (recharge rover2 waypoint2) [1.000] ; (12)
+39.006: (navigate rover2 waypoint2 waypoint3) [5.000] ; (9)
+44.006: (communicate_soil_data rover2 general waypoint2 waypoint3 landerpoint) [10.000] ; (22)
+54.007: (communicate_soil_data rover2 general waypoint3 waypoint3 landerpoint) [10.000] ; (24)
+
+

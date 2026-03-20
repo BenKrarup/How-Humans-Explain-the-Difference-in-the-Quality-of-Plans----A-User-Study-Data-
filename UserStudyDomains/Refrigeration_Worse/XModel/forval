@@ -1,0 +1,7 @@
+0.001: (load_truck cereal t1 depot) [0.010]
+0.001: (load_truck meat t1 depot) [0.010]
+0.001: (board_truck driver t1 depot) [0.010]
+0.011: (drive_truck driver t1 depot butcher) [20.000]
+20.011: (deliver_produce meat t1 butcher) [0.010]
+20.021: (drive_truck driver t1 butcher grocer) [15.000]
+35.021: (deliver_produce cereal t1 grocer) [0.010]
